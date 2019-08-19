@@ -75,6 +75,14 @@ function tryGitInit(appPath) {
   }
 }
 
+function forkAnnouncement() {
+  console.log(
+    chalk.yellow(
+      'This is a fork of react-scripts from Code Workshop containing preconfigured tailwindCSS'
+    )
+  );
+}
+
 module.exports = function(
   appPath,
   appName,
@@ -256,6 +264,7 @@ module.exports = function(
   }
   console.log();
   console.log('Happy hacking!');
+  forkAnnouncement();
 };
 
 function isReactInstalled(appPackage) {
