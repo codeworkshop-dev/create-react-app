@@ -1,6 +1,6 @@
 {
   "name": "@codework/react-scripts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Code Workshop fork of create-react-app with tailwind css built in for teaching.",
   "repository": {
     "type": "git",
